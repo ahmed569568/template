@@ -1,0 +1,22 @@
+.landing-page {
+  min-height: 100vh;
+  // background-image: url(../../assets/1.jpg);
+  background-size: cover;
+  .overlay {
+    background: #21252947;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .introduction-text {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+  }
+}
